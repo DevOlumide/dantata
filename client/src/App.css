@@ -1,0 +1,24 @@
+
+.brand-box{
+justify-content: start;
+
+
+}
+.col-3{
+  width: 33.3%;
+}
+.col-9{
+  display: flex;
+  width: 57.7%;
+}
+.collapsible-nav{
+  display: flex;
+
+}
+.navbar{
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  margin: 0;
+
+}
