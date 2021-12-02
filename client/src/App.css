@@ -1,24 +1,107 @@
+*{
+  box-sizing: border-box;
+}
 
+.ubg-dark{
+  background-color: black;
+}
+.ubg-green{
+  background-color: chartreuse;
+}
 .brand-box{
-justify-content: start;
+  border-right: 1px solid rgb(216, 209, 209);
+  text-align: center;
+  justify-content: center;
+}
+.catalogue-btn{
+height: 100%;
+}
+.md-col-1 {
+  width: 8.33%;
+}
 
+.md-col-2 {
+  width: 16.66%;
+}
+
+.md-col-3 {
+  width: 25%;
+}
+
+.md-col-4 {
+  width: 33.33%;
+}
+
+.md-col-5 {
+  width: 41.66%;
+}
+
+.md-col-6 {
+  width: 50%;
+}
+
+.md-col-7 {
+  width: 58.33%;
+}
+
+.md-col-8 {
+  width: 66.66%;
+}
+
+.md-col-9 {
+  width: 75%;
+}
+
+.md-col-10 {
+  width: 83.33%;
+}
+
+.md-col-11 {
+  width: 91.66%;
+}
+
+.md-col-12 {
+  width: 100%;
+}
+
+.menu-box{
+overflow-x: hidden;
+}
+
+.menu-list{
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+line-height: 0;
 
 }
-.col-3{
-  width: 33.3%;
-}
-.col-9{
+.nav-1{
   display: flex;
-  width: 57.7%;
+  padding: 0.5rem;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid rgb(216, 209, 209);
 }
-.collapsible-nav{
-  display: flex;
 
-}
-.navbar{
+.nav-2{
   display: flex;
   padding: 1rem;
   width: 100%;
   margin: 0;
+  border-bottom: 1px solid rgb(216, 209, 209);
+}
 
+.navbar-input{
+height: 100%;
+width: 100%;
+border-width: 0px 1px 0px 1px;
+padding: 1rem;
+margin: 0 1rem 0 1rem;
+font-size: 1rem;
+}
+
+.profile-avatar{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
 }
