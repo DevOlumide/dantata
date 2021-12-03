@@ -2,20 +2,25 @@
   box-sizing: border-box;
 }
 
-.ubg-dark{
-  background-color: black;
+.brand{
+text-decoration: none;
+color:rgb(43, 93, 185);
 }
-.ubg-green{
-  background-color: chartreuse;
-}
+
 .brand-box{
   border-right: 1px solid rgb(216, 209, 209);
   text-align: center;
   justify-content: center;
 }
+
+button{
+  padding: 0.3rem;
+  }
+
 .catalogue-btn{
 height: 100%;
 }
+
 .md-col-1 {
   width: 8.33%;
 }
@@ -75,8 +80,10 @@ list-style-type: none;
 line-height: 0;
 
 }
+
 .nav-1{
   display: flex;
+  text-align: center;
   padding: 0.5rem;
   width: 100%;
   margin: 0;
@@ -85,19 +92,29 @@ line-height: 0;
 
 .nav-2{
   display: flex;
-  padding: 1rem;
+  text-align: center;
+  padding: 0.5rem;
   width: 100%;
   margin: 0;
   border-bottom: 1px solid rgb(216, 209, 209);
 }
 
+.nav-2 .md-col-1, .nav-1 .md-col-1{
+ border-right: 1px solid rgb(216, 209, 209);
+}
+
+.nav-2 .md-col-2, .nav-1 .md-col-2{
+ border-left: 1px solid rgb(216, 209, 209);
+ }
+
 .navbar-input{
 height: 100%;
-width: 100%;
-border-width: 0px 1px 0px 1px;
+width: 80%;
+border: 0px;
 padding: 1rem;
 margin: 0 1rem 0 1rem;
 font-size: 1rem;
+text-align: center;
 }
 
 .profile-avatar{

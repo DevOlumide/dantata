@@ -5,28 +5,32 @@ function Navbar(){
         <div className="navbar">
             <div className='nav-1'>
            <div className='md-col-1 brand-box'>
-             <a href='#' className=''>
+             <a href='#' className='brand'>
                  Dantata
              </a>
            </div>
 
-        <div className='md-col-10 collabsible-box bg-green'>
+        <div className='md-col-9 collabsible-box bg-green'>
            <div className='col-10 menu-box bg-dark'>
              <ul className='menu-list'>
              <li>
-                 Solar panels
+                 Fruits 
              </li>
 
              <li>
-                 Solar inverters
+                 Vegetables
              </li>
 
              <li>
-                 Automatic changeover
+                 Food stuffs
              </li>
              </ul>
            </div>
+           </div>
+        <div className='md-col-2'>
+          <button className=''>Sign up</button>
         </div>
+       
         </div>
         <div className='nav-2'>
           <div className='md-col-1'>
